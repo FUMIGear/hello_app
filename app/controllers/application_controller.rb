@@ -7,6 +7,6 @@ class ApplicationController < ActionController::Base
   end
   # メソッド：1.3.4の演習3
   def goodbye
-    # render html: "goodbye, world!"
+    render html: "goodbye, world!"
   end
 end
